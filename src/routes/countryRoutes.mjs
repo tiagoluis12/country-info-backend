@@ -8,7 +8,7 @@ router.get(
   "/api/countries/:countryName",
   [
     check("countryName")
-      .isAlpha()
+      .isAlpha("en-US", { ignore: " " })
       .withMessage("Country name must contain only alphabetic characters"),
   ],
   async (req, res) => {
