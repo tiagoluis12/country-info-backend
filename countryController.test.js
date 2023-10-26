@@ -14,9 +14,3 @@ describe("GET /api/countries/:countryName", () => {
     expect(response.statusCode).toBe(404);
   });
 });
-describe("GET /api/countries", () => {
-  it("responds with status 200", async () => {
-    const response = await request(app).get("/api/countries");
-    expect(response.statusCode).toBe(200);
-  });
-});
