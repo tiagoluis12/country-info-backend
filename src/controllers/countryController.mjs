@@ -6,6 +6,8 @@ const fetchCountryInfo = async (countryName) => {
       `https://restcountries.com/v3.1/name/${countryName}`
     );
 
+    // I am using axios to make the request to the API
+
     if (response.data.length === 0) {
       // Log the error and return an error response
       console.error(`Country not found for: ${countryName}`);
