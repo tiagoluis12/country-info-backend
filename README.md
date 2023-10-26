@@ -37,6 +37,13 @@ To run this project locally, follow these steps:
    "winston"
 4. npm start or npm run dev (The server will start, and the API will be accessible at http://localhost:3001)
 
+## Running Tests
+
+Run the tests you have to use the following command:
+node --experimental-vm-modules node_modules/jest/bin/jest.js
+
+Jest will execute the tests and report the results in your terminal.
+
 ## API Documentation
 
 Get Country Information
