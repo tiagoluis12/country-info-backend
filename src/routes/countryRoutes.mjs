@@ -19,8 +19,6 @@ router.get(
     }
 
     const { countryName } = req.params;
-
-    // Use the fetchCountryInfo function from countryController
     const countryInfo = await fetchCountryInfo(countryName);
 
     if (countryInfo.error) {

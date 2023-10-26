@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import countryRoutes from "../src/routes/countryRoutes.mjs";
+import countryRoutes from "./routes/countryRoutes.mjs";
 import { globalErrorMiddleware } from "./error/errorMiddleware.mjs";
 
 const app = express();
