@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 ## Start
 
 2. Navigate to the backend directory:  
-   cd country-information-app/server
+   cd backend
 
 3. npm install to install all required dependencies.
 
@@ -37,9 +37,9 @@ To run this project locally, follow these steps:
    "nodemon"
    "winston"
 
-4. npm start or npm run dev
+4. npm start or npm run dev to start the local server.
 
-The server will start, and the API will be accessible at http://localhost:3001
+The server will start, and the API will be accessible at http://localhost:3001/api/countries/
 
 ## Hosting
 
