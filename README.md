@@ -26,6 +26,7 @@ To run this project locally, follow these steps:
 ## Start
 
 2. Navigate to the backend directory:  
+   cd country-info
    cd backend
 
 3. npm install to install all required dependencies.
