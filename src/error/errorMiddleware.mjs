@@ -1,4 +1,4 @@
-import { CustomError } from "../error/customError.mjs";
+import { CustomError } from "./customError.mjs";
 import winston from "winston";
 
 const logger = winston.createLogger({
