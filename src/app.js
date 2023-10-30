@@ -27,6 +27,5 @@ app.use(express.static("client/build"));
 
 app.use(globalErrorMiddleware);
 
-app.listen(3001);
 
 export default app;
